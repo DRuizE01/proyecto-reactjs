@@ -1,9 +1,8 @@
 import React from "react";
 
-import comoQuieras from './comoQuieras';
+import ComoQuieras from './ComoQuieras';
 
 export default function Etiqueta1(props) {
-  //React.createElement("h1",null,"hola");
 
   return (
     <div>
@@ -11,7 +10,7 @@ export default function Etiqueta1(props) {
       {props.titulo}
 
       <ul>
-        <comoQuieras item="patata" />
+        <ComoQuieras elemento="patata"/>
       </ul>
     </div>
   );
